@@ -1,0 +1,22 @@
+{
+  "name": "express_data_test_try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dataBaseOperations.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "sqlite": "^4.0.12",
+    "sqlite3": "^5.0.0"
+  }
+}
