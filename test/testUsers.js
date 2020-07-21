@@ -5,7 +5,7 @@ describe('Users', function () {
   let users;
 
   before(async () => {
-    const db = await initializeDataBase('./test.db');
+    const db = await initializeDataBase(':memory:');
     users = new Users(db);
     return;
   });
