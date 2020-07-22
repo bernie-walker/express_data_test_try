@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const { initializeDataBase, Users } = require('../dataBaseOperations');
+const { initializeDataBase, Users } = require('../src/dataBaseOperations');
 
 describe('Users', function () {
   let users;
